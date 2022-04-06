@@ -1,108 +1,220 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors
 
-Welcome Harry Hayden,
+Rock, Paper, Scissors is a well known game around the world and is played by people of all ages, both for fun and occassionally for deciding who should have to do something as the winner
+or loser. The game has been created on a webpage with the ability to play against the computer in the knowledge that the computer decides completely at random against the user.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Webpage responsive]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Live Webpage](https://harryrhayden.github.io/CI_PP1/index.html)
 
-## Gitpod Reminders
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Style Choices](#style-choices)
+    1. [Design](#design)
+    2. [Colour](#colour-scheme)
+    4. [Structure](#structure)
+    5. [Initial Framework](#initial-framework)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-and-tools)
+5. [Features](#features)
+6. [Testing](#testing)
+    1. [Manual Testing](#manual-testing)
+    5. [Device testing](#perform-test-on-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+7. [Validation](#validator-testing)
+    1. [HTML](#html)
+    2. [CSS](#css)
+    3. [Lighthouse](#lighthouse-score)
+    4. [Accessibility](#accessibility)
+8. [Bugs Fixed](#bugs-fixed)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+    1. [Code](#code)
+    2. [Content](#content)
+    3. [Media](#media)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goals
 
-`python3 -m http.server`
+### User Goals
 
-A blue button should appear to click: _Make Public_,
+1. Ability to play a fun game
+2. Ability to have a target number of victories for overall win
+3. Ability to easily determine who won the round and the game
+4. Ability to try again once target score is reached
+5. Ability to be shown the rules should they be needed
 
-Another blue button should appear to click: _Open Browser_.
+### Site Owner Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+6. Provide a a fun stimulating game of Rock, Paper, Scissors
+7. To provide a set of rules should they be required
+8. Provide a dynamic scoreboard for the player
+9. Provide an unbias computer player ensuring the selection is completely random
 
-A blue button should appear to click: _Make Public_,
+## User Experience
 
-Another blue button should appear to click: _Open Browser_.
+### Target Audience
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- People who wish to play Rock, Paper, Scissors
+- People looking to learn how to play Rock, Paper, Scissors
+- People looking to while away a bit of downtime or boredom
+- People who enjoy online games
 
-To log into the Heroku toolbelt CLI:
+### User Requirements and Expectations
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- A easy to use game
+- A fun experience with no cheating
+- An understanding that the computer is randomised and not set to beat the player
+- Presentation and visual aesthetics regardless of screensize
+- Accessibility
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### User Stories
 
-------
+- Provide a fun game for the user
+- Provide a game of Rock, Paper, Scissors
+- Provide a score counter to ensure the user can follow who is winning
+- Provide an overall winner
+- Provide the ability for the user to start the game over
 
-## Release History
+## Style Choices
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Design
+The design is a fun game of Rock, Paper, Scissors. A worldwide renowned game played by all ages. Sometimes just for fun and other times used as a tactic to make big decisions.
+The game ensures the user is up against a randomised computer opponent providing feedback for the winner of each round and an overall winner.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Colour Scheme
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+For the colour of the web page I used [Coolors](https://coolors.co/).
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<details><summary>Colour Palette</summary><img src=""></details>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Structure
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Initial Framework
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Before starting the website I used a framework design tool called [Balsamic](https://balsamiq.com/) to mockup an initial design idea.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<details><summary>Index</summary><img src=""></details>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technologies Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Languages
+- HTML
+- CSS
+- JavaScript
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Frameworks and Tools
+- Git
+- GitHub
+- Gitpod
+- Compressor<span>.</span>io
+- Paint<span>.</span>NET
+- Balsamiq
+- Google Fonts
+- Coolors
+- Font Awesome
+- Favicon<span>.</span>io
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Features
+### Existing Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- ____
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  - 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  ![]()
 
-------
+### Features Left to Implement
 
-## FAQ about the uptime script
+- 
 
-**Why have you added this script?**
+## Testing 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Perform test on devices
+The website was tested on the following devices:
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+In addition, the website was tested using Google Chrome Developer Tools Device Toggling option for all available device options.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Browser compatability
+The website was tested on the following browsers:
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+## Validator Testing 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### HTML
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### CSS
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+  
+### Lighthouse Score
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+### Accessibility
+
+
+
+## Bugs Fixed
+
+
+
+### Testing user stories
+
+1. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|  |  |  |  |
+
+
+  <details><summary>User Story 1</summary><img src=""></details><br>
+
+
+## Deployment
+
+The website was deployed using GitHub Pages by following these steps:
+1. On the GitHub repository select the Settings tab
+2. Using the left hand sub-menu select Pages
+3. When asked for the source select Branch: master
+4. After the webpage refreshes automaticaly you will be shown a ribbon along the top saying: "Your site is published at "
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press the Enter key to create your local clone.
+
+The live link can be found here - 
+
+
+## Credits 
+
+### Code
+
+
+
+### Content 
+
+- The icons in the game area were taken from [Font Awesome](https://fontawesome.com/)
+- The images were compressed using [Compressor IO](https://compressor.io/)
+
+### Media
+
+- The colours used on the site are found on [Coolors](https://coolors.co/)
+- The favicon came from [Favicon](https://favicon.io/)
