@@ -11,7 +11,8 @@ h1 {
     font-size: 3.5rem;
 }
 
-div {
+/* Game button style */
+.choice-area {
     display: flex;
     align-items: center;
     justify-content: center;
