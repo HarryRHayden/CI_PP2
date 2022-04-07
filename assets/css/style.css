@@ -7,8 +7,19 @@ html {
     text-align: center;
 }
 
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 h1 {
     font-size: 3.5rem;
+    background-color: purple;
+    color: white;
+    height: 8vh;
+    width: 100%;
 }
 
 /* Game button style */
@@ -56,6 +67,16 @@ h1 {
 }
 
 /* Rules modal for footer */
+footer {
+  margin-top: auto;
+  height: 4vh;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .rules {
     display: none; 
     position: fixed; 
