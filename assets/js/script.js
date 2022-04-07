@@ -2,8 +2,9 @@
  * Declar constants from DOM and choices
  */
 const gameBtn = document.getElementsByClassName('buttons');
-const playerImage = document.getElementById('player-choice')
-const computerImage = document.getElementById('computer-choice')
+const playerChoice = document.getElementById('player-choice')
+const computerChoice = document.getElementById('computer-choice')
+
 
 
 // Rules pop-out modal

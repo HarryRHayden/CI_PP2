@@ -14,12 +14,15 @@ body{
   margin: 0;
 }
 
+header {
+  background-color: purple;
+  width: 100%;
+}
+
 h1 {
     font-size: 3.5rem;
-    background-color: purple;
     color: white;
     height: 8vh;
-    width: 100%;
 }
 
 /* Game button style */
