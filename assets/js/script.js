@@ -1,11 +1,17 @@
+/**
+ * Declar constants from DOM and choices
+ */
+const gameBtn = document.getElementsByClassName('buttons');
+const playerImage = document.getElementById('player-choice')
+const computerImage = document.getElementById('computer-choice')
 
 
 // Rules pop-out modal
-var modal = document.getElementById("myRules");
+let modal = document.getElementById("myRules");
 
-var btn = document.getElementById("how-to-play");
+let btn = document.getElementById("how-to-play");
 
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
   modal.style.display = "block";
