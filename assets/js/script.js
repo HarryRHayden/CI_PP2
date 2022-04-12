@@ -1,16 +1,26 @@
 /**
  * Declar constants from DOM and choices
  */
-const gameBtn = document.getElementsByClassName('buttons');
+const gameBtns = document.getElementsByClassName('buttons');
 const playerChoice = document.getElementById('player-choice')
 const computerChoice = document.getElementById('computer-choice')
 const playerScore = document.getElementById('player-score')
 const computerScore = document.getElementById('computer-score')
 
 /**
+ * Add event listeners to the buttons
+ */
+for (let gameBtn of gameBtns) {
+  gameBtn.addEventListener('click', function() {
+    let playerPick = this.getAttribute('data-type');
+    
+  })
+}
+
+/**
  * Function to receive what the player clicks
  */
-function playerChoice();
+//function playerChoice();
 
 // Rules pop-out modal
 let modal = document.getElementById("myRules");
