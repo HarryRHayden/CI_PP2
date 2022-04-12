@@ -4,8 +4,13 @@
 const gameBtn = document.getElementsByClassName('buttons');
 const playerChoice = document.getElementById('player-choice')
 const computerChoice = document.getElementById('computer-choice')
+const playerScore = document.getElementById('player-score')
+const computerScore = document.getElementById('computer-score')
 
-
+/**
+ * Function to receive what the player clicks
+ */
+function playerChoice();
 
 // Rules pop-out modal
 let modal = document.getElementById("myRules");
