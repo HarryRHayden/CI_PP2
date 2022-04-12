@@ -13,14 +13,22 @@ const computerScore = document.getElementById('computer-score')
 for (let gameBtn of gameBtns) {
   gameBtn.addEventListener('click', function() {
     let playerPick = this.getAttribute('data-type');
-    
-  })
+    playGames(playerPick);
+  });
 }
 
 /**
  * Function to receive what the player clicks
  */
-//function playerChoice();
+function playGames(playerPick) {
+  if (playerPick === 'rock') {
+    playerChoice.className = 'fa-solid fa-hand-back-fist';
+  } else if (playerPick === 'scissors') {
+    playerChoice.className = 'fa-solid fa-hand-scissors';
+  } else {
+    playerChoice.className = 'fa-solid fa-hand';
+  }
+}
 
 // Rules pop-out modal
 let modal = document.getElementById("myRules");
