@@ -6,6 +6,7 @@ const playerChoice = document.getElementById('player-choice')
 const computerChoice = document.getElementById('computer-choice')
 const playerScore = document.getElementById('player-score')
 const computerScore = document.getElementById('computer-score')
+const computerImage = ['rock', 'paper', 'scissors']
 
 /**
  * Add event listeners to the buttons
@@ -29,7 +30,7 @@ function playGames(playerPick) {
     playerChoice.className = 'fa-solid fa-hand';
   }
 
-  let computerPick = Math.floor(Math.random() * 3)  
+  let computerPick = Math.floor(Math.random() * 3);  
 }
 
 // Check who wins
