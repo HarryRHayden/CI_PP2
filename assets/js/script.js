@@ -30,11 +30,13 @@ function playGames(playerPick) {
     playerChoice.className = 'fa-solid fa-hand';
   }
 
-  let computerPick = Math.floor(Math.random() * 3);  
+  let computerMath = Math.floor(Math.random() * 3);
+  let computerPick = computerImage[computerMath];
+  console.log(computerPick);
 }
 
 // Check who wins
-function gameWinner()
+//function gameWinner()
 
 // Rules pop-out modal
 let modal = document.getElementById("myRules");
