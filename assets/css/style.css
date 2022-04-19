@@ -3,7 +3,7 @@
 
 html {
     font-family: "Raleway", sans-serif;
-    color: #CB9CF2;
+    color: #374A67;
     text-align: center;
 }
 
@@ -40,17 +40,19 @@ h1 {
     border-radius: 12%;
     background-color: white;
     margin: 0.4rem;
+    color: #374A67;
 }
 
 .buttons:hover {
     background-color: #374A67;
     font-size: 3.5rem;
+    color: #CB9CF2;
 }
 
 /* Game area */
 .game-board {
   width: 60%;
-  height: 40vh;
+  height: auto;
   border: solid #0E1116;
   margin: auto;
   display: flex;
@@ -72,12 +74,20 @@ h1 {
 /* Rules modal for footer */
 footer {
   margin-top: auto;
-  height: 4vh;
+  height: 6vh;
   background-color: #9E7B9B;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.footer-btn {
+  font-size: 1.25rem;
+  background-color: #0E1116;
+  color: #CB9CF2;
+  border-radius: 12px;
+  padding: 0.25rem;
 }
 
 .rules {
