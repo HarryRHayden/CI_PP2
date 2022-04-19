@@ -40,10 +40,11 @@ function playGames(playerPick) {
   } else {
     computerChoice.className = 'fa-solid fa-hand';
   }
+  function gameWinner(computerPick, playerPick)
 }
 
 // Check who wins
-//function gameWinner()
+function gameWinner()
 
 // Rules pop-out modal
 let modal = document.getElementById("myRules");
