@@ -32,7 +32,14 @@ function playGames(playerPick) {
 
   let computerMath = Math.floor(Math.random() * 3);
   let computerPick = computerImage[computerMath];
-  console.log(computerPick);
+  
+  if (computerPick === 'rock') {
+    computerChoice.className = 'fa-solid fa-hand-back-fist';
+  } else if (computerPick === 'scissors') {
+    computerChoice.className = 'fa-solid fa-hand-scissors';
+  } else {
+    computerChoice.className = 'fa-solid fa-hand';
+  }
 }
 
 // Check who wins
