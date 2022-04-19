@@ -92,7 +92,7 @@ The game ensures the user is up against a randomised computer opponent providing
 
 For the colour of the web page I used [Coolors](https://coolors.co/).
 
-<details><summary>Colour Palette</summary><img src=""></details>
+<details><summary>Colour Palette</summary><img src="assets/docs/images/color_palette.png"></details>
 
 ### Structure
 
