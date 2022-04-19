@@ -3,7 +3,7 @@
 
 html {
     font-family: "Raleway", sans-serif;
-    color: purple;
+    color: #CB9CF2;
     text-align: center;
 }
 
@@ -15,7 +15,7 @@ body{
 }
 
 header {
-  background-color: purple;
+  background-color: #9E7B9B;
   width: 100%;
 }
 
@@ -43,7 +43,7 @@ h1 {
 }
 
 .buttons:hover {
-    background-color: grey;
+    background-color: #374A67;
     font-size: 3.5rem;
 }
 
@@ -51,7 +51,7 @@ h1 {
 .game-board {
   width: 60%;
   height: 40vh;
-  border: solid black;
+  border: solid #0E1116;
   margin: auto;
   display: flex;
   flex-flow: row wrap;
@@ -73,7 +73,7 @@ h1 {
 footer {
   margin-top: auto;
   height: 4vh;
-  background-color: purple;
+  background-color: #9E7B9B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,12 +97,12 @@ footer {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #616283;
     width: 80%;
   }
   
   .close {
-    color: #aaa;
+    color: #616283;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -110,7 +110,7 @@ footer {
   
   .close:hover,
   .close:focus {
-    color: black;
+    color: #0E1116;
     text-decoration: none;
     cursor: pointer;
   }
