@@ -5,7 +5,7 @@ or loser. The game has been created on a webpage with the ability to play agains
 
 ![Webpage responsive]()
 
-[Live Webpage](https://harryrhayden.github.io/CI_PP1/index.html)
+[Live Webpage](https://harryrhayden.github.io/CI_PP2/)
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
@@ -185,7 +185,7 @@ The website was deployed using GitHub Pages by following these steps:
 1. On the GitHub repository select the Settings tab
 2. Using the left hand sub-menu select Pages
 3. When asked for the source select Branch: master
-4. After the webpage refreshes automaticaly you will be shown a ribbon along the top saying: "Your site is published at "
+4. After the webpage refreshes automaticaly you will be shown a ribbon along the top saying: "Your site is published at https://harryrhayden.github.io/CI_PP2/"
 
 You can for fork the repository by following these steps:
 1. Go to the GitHub repository
