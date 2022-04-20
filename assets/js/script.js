@@ -40,13 +40,16 @@ function playGames(playerPick) {
   } else {
     computerChoice.className = 'fa-solid fa-hand';
   }
-  gameWinner(computerPick, playerPick)
+  setTimeout(gameWinner, 10, playerPick, computerPick)
 }
 
 // Check who wins
 function gameWinner(computerPick, playerPick) {
-  console.log(playerPick)
-  console.log(computerPick)
+  let moveWinner = `${computerPick} vs ${playerPick}`
+
+  if (computerPick === playerPick) {
+    alert(`${moveWinner} is a Tie`)
+  }
 }
 
 // Rules pop-out modal
