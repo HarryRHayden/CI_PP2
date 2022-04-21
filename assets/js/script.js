@@ -2,11 +2,11 @@
  * Declar constants from DOM and choices
  */
 const gameBtns = document.getElementsByClassName('buttons');
-const playerChoice = document.getElementById('player-choice')
-const computerChoice = document.getElementById('computer-choice')
-const playerScore = document.getElementById('player-score')
-const computerScore = document.getElementById('computer-score')
-const computerImage = ['rock', 'paper', 'scissors']
+const playerChoice = document.getElementById('player-choice');
+const computerChoice = document.getElementById('computer-choice');
+const playerScore = document.getElementById('player-score');
+const computerScore = document.getElementById('computer-score');
+const computerImage = ['rock', 'paper', 'scissors'];
 
 /**
  * Add event listeners to the buttons
@@ -40,16 +40,23 @@ function playGames(playerPick) {
   } else {
     computerChoice.className = 'fa-solid fa-hand';
   }
-  setTimeout(gameWinner, 10, playerPick, computerPick)
+  setTimeout(gameWinner, 10, computerPick, playerPick);
 }
 
 // Check who wins
 function gameWinner(computerPick, playerPick) {
-  let moveWinner = `${computerPick} vs ${playerPick}`
+  let moveWinner = `${computerPick} vs ${playerPick}`;
 
   if (computerPick === playerPick) {
-    alert(`${moveWinner} is a Tie`)
+    alert(`${moveWinner} is a Tie`);
   }
+
+  if (computerPick === 'rock') {
+    if (playerPick === 'paper') {
+      alert(`${moveWinner} Player Wins`)
+    }
+  }
+   
 }
 
 // Rules pop-out modal
