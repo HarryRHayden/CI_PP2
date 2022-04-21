@@ -47,11 +47,13 @@ function playGames(playerPick) {
 function gameWinner(computerPick, playerPick) {
   let moveWinner = `${computerPick} vs ${playerPick}`;
 
+  //Check for a tie
   if (computerPick === playerPick) {
     alert(`${moveWinner} is a Tie`);
   }
 
-  if (computerPick === 'rock') {
+  //Check for Rock
+  else if (computerPick === 'rock') {
     if (playerPick === 'paper') {
       alert(`${moveWinner} Player Wins`)
     } else {
@@ -59,7 +61,8 @@ function gameWinner(computerPick, playerPick) {
     }
   }
   
-  if (computerPick === 'paper') {
+  //Check for paper
+  else if (computerPick === 'paper') {
     if (playerPick === 'scissors') {
       alert(`${moveWinner} Player Wins`);
     } else {
