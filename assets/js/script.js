@@ -54,9 +54,18 @@ function gameWinner(computerPick, playerPick) {
   if (computerPick === 'rock') {
     if (playerPick === 'paper') {
       alert(`${moveWinner} Player Wins`)
+    } else {
+      alert(`${moveWinner} Computer Wins`)
     }
   }
-   
+  
+  if (computerPick === 'paper') {
+    if (playerPick === 'scissors') {
+      alert(`${moveWinner} Player Wins`);
+    } else {
+      alert(`${moveWinner} Computer Wins`);
+    }
+  }
 }
 
 // Rules pop-out modal
