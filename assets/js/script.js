@@ -17,7 +17,6 @@ for (let gameBtn of gameBtns) {
   gameBtn.addEventListener('click', function() {
     let playerPick = this.getAttribute('data-type');
     playGames(playerPick);
-    updateScores();
   });
 }
 
@@ -58,9 +57,11 @@ function gameWinner(computerPick, playerPick) {
   //Check for Rock
   else if (computerPick === 'rock') {
     if (playerPick === 'paper') {
-      alert(`${moveWinner} Player Wins`)
+      alert(`${moveWinner} Player Wins`);
+      pScore++;
     } else {
       alert(`${moveWinner} Computer Wins`)
+      cScore++;
     }
   }
   
@@ -68,8 +69,10 @@ function gameWinner(computerPick, playerPick) {
   else if (computerPick === 'paper') {
     if (playerPick === 'scissors') {
       alert(`${moveWinner} Player Wins`);
+      pScore++;
     } else {
       alert(`${moveWinner} Computer Wins`);
+      cScore++;
     }
   }
 
@@ -77,10 +80,13 @@ function gameWinner(computerPick, playerPick) {
   else if (computerPick === 'scissors') {
     if (playerPick === 'rock') {
       alert(`${moveWinner} Player Wins`);
+      pScore++;
     } else {
       alert(`${moveWinner} Computer Wins`);
+      cScore++;
     }
   }
+  updateScores();
 }
 
 //Check and update the scores
