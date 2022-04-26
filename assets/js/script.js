@@ -7,6 +7,8 @@ const computerChoice = document.getElementById('computer-choice');
 const playerScore = document.getElementById('player-score');
 const computerScore = document.getElementById('computer-score');
 const computerImage = ['rock', 'paper', 'scissors'];
+let cScore = 0;
+let pScore = 0;
 
 /**
  * Add event listeners to the buttons
@@ -15,6 +17,7 @@ for (let gameBtn of gameBtns) {
   gameBtn.addEventListener('click', function() {
     let playerPick = this.getAttribute('data-type');
     playGames(playerPick);
+    updateScores();
   });
 }
 
@@ -78,6 +81,12 @@ function gameWinner(computerPick, playerPick) {
       alert(`${moveWinner} Computer Wins`);
     }
   }
+}
+
+//Check and update the scores
+function updateScores() {
+  computerScore.textContent = cScore;
+  playerScore.textContent = pScore;
 }
 
 // Rules pop-out modal
