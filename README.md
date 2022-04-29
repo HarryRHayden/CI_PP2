@@ -46,7 +46,7 @@ or loser. The game has been created on a webpage with the ability to play agains
 
 1. Ability to play a fun game
 2. Ability to have a target number of victories for overall win
-3. Ability to easily determine who won the round and the game
+3. Ability to easily determine who won the round
 4. Ability to try again once target score is reached
 5. Ability to be shown the rules should they be needed
 
@@ -179,6 +179,32 @@ The website was tested on the following browsers:
 
   <details><summary>User Story 1</summary><img src=""></details><br>
 
+2. Ability to have a target number of victories for overall win
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Scorecard | Ability to score the game of Rock, Paper, Scissors | Score counter with an objective of reaching 5 | Winner announced when score of 5 acheived |
+
+
+  <details><summary>User Story 2</summary><img src=""></details><br>
+
+3. Ability to easily determine who won the round
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Scorecard | Ability to score the game of Rock, Paper, Scissors | Scorecard to increment by 1 each time a winner is announce | Scorecard increments as expected |
+
+
+  <details><summary>User Story 3</summary><img src=""></details><br>
+
+4. Ability to easily determine who won the round
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Scorecard | Ability to be shown who won the round | An alert to show who won with which combination | An alert showing the winner |
+
+
+  <details><summary>User Story 3</summary><img src=""></details><br>
 
 ## Deployment
 
