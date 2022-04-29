@@ -100,7 +100,7 @@ For the colour of the web page I used [Coolors](https://coolors.co/).
 
 Before starting the website I used a framework design tool called [Balsamic](https://balsamiq.com/) to mockup an initial design idea.
 
-<details><summary>Index</summary><img src=""></details>
+<details><summary>Index</summary><img src="assets/docs/images/design_mock.png"></details>
 
 ## Technologies Used
 
