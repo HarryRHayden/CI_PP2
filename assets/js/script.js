@@ -95,6 +95,9 @@ function updateScores() {
   playerScore.textContent = pScore;
 }
 
+//Check who is the first to 5
+
+
 // Rules pop-out modal
 let modal = document.getElementById("myRules");
 
