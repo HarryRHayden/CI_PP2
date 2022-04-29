@@ -132,7 +132,7 @@ Before starting the website I used a framework design tool called [Balsamic](htt
 
 ### Features Left to Implement
 
-- 
+- Login to save wins/losses
 
 ## Testing 
 
@@ -153,13 +153,14 @@ The website was tested on the following browsers:
 
 ### CSS
 
-
   
 ### Lighthouse Score
 
 
-
 ### Accessibility
+
+
+### Javascript
 
 
 
@@ -169,11 +170,11 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. 
+1. Ability to play a fun game
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  |  |  |  |
+| The game itself | Ability to play Rock, Paper, Scissors | Randomised game of Rock, Paper, Scissors against the computer | A playable game |
 
 
   <details><summary>User Story 1</summary><img src=""></details><br>
