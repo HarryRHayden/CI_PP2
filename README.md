@@ -177,7 +177,11 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 ### Score Update
 
   * The winner was being announced but the score was not updating. - To fix I moved the calling of the score update function to inside the winner function. This solved the issue.
+
+### Images not correct
   * The images to show the selections were not showing before the alert for the winner. - To fix I set a small delay on the alert so that the images updated.
+
+### Duplicated ID attribute
   * Put the 'id' attribute into a div element twice
 
   <details><summary>Double ID</summary><img src="docs/images/double_id.png"></details>
