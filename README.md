@@ -242,6 +242,15 @@ The website was tested on the following browsers:
 
   <details><summary>User Story 8</summary><img src=""></details><br>
 
+9. Provide an unbias computer player ensuring the selection is completely random
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Games area | Randomised computer selection | Each time the game is run the computers choice will be randomised | A random result for the computers pick each time |
+
+
+  <details><summary>User Story 8</summary><img src=""></details><br>
+
 ## Deployment
 
 The website was deployed using GitHub Pages by following these steps:
