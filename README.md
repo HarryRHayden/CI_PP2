@@ -154,16 +154,22 @@ Validation completed by [W3S](https://validator.w3.org/#validate_by_input). This
   <details><summary>Index</summary><img src="docs/images/html_validate.png"></details>
 
 ### CSS
+Validation for CSS coding was completed by [W3S CSS Validator](https://jigsaw.w3.org/css-validator/) and returned no errors for my CSS coding.
 
+  <details><summary>CSS</summary><img src="docs/images/css_validate.png"></details>
   
 ### Lighthouse Score
 
 
 ### Accessibility
+Accessibility was tested using [Wave Webaim](https://wave.webaim.org/) and returned no errors.
 
+<details><summary>Accessibility Index</summary><img src="docs/images/web_wave_index.png"></details>
 
-### Javascript
+### JavaScript
+JavaScript code was tested using [JSHint](https://jshint.com/) and returned one warning as shown below.
 
+<details><summary>JavaScript Validation</summary><img src="docs/images/jshint_validate.png"></details>
 
 
 ## Bugs Fixed

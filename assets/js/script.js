@@ -60,7 +60,7 @@ function gameWinner(computerPick, playerPick) {
       alert(`${moveWinner} Player Wins`);
       pScore++;
     } else {
-      alert(`${moveWinner} Computer Wins`)
+      alert(`${moveWinner} Computer Wins`);
       cScore++;
     }
   }
@@ -100,13 +100,13 @@ function updateScores() {
 function checkWinner() {
   if (pScore === 5 || cScore === 5) {
     if (pScore === 5) {
-      alert(`Congratulations you WIN!!!`)
-      pScore = 0
-      cScore = 0
+      alert(`Congratulations you WIN!!!`);
+      pScore = 0;
+      cScore = 0;
     } else {
-      alert(`Unlucky the computer got you this time!`)
-      pScore = 0
-      cScore = 0
+      alert(`Unlucky the computer got you this time!`);
+      pScore = 0;
+      cScore = 0;
     }
   }
   updateScores();
@@ -121,14 +121,14 @@ let span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
   modal.style.display = "block";
-}
+};
 
 span.onclick = function() {
   modal.style.display = "none";
-}
+};
 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+};
