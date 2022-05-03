@@ -93,10 +93,24 @@ function gameWinner(computerPick, playerPick) {
 function updateScores() {
   computerScore.textContent = cScore;
   playerScore.textContent = pScore;
+  checkWinner();
 }
 
 //Check who is the first to 5
-
+function checkWinner(){
+  if (pScore === 5 || cScore === 5) {
+    if (pScore === 5) {
+      alert(`Congratulations you WIN!!!`)
+      pScore = 0
+      cScore = 0
+    } else {
+      alert(`Unlucky the computer got you this time!`)
+      pScore = 0
+      cScore = 0
+    }
+  }
+  updateScores();
+}
 
 // Rules pop-out modal
 let modal = document.getElementById("myRules");
