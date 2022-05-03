@@ -204,7 +204,34 @@ The website was tested on the following browsers:
 | Scorecard | Ability to be shown who won the round | An alert to show who won with which combination | An alert showing the winner |
 
 
-  <details><summary>User Story 3</summary><img src=""></details><br>
+  <details><summary>User Story 4</summary><img src=""></details><br>
+
+5. Ability to be shown the rules should they be needed
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Rules modal popout | Ability to be shown the rules should they be needed | A popout which shows the rules | A seperate popout with the rules depicted |
+
+
+  <details><summary>User Story 5</summary><img src=""></details><br>
+
+6. Provide a a fun stimulating game of Rock, Paper, Scissors
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Rock, Paper, Scissors game | Allow user to play the game | A working version of Rock, Paper, Scissors | A functioning game |
+
+
+  <details><summary>User Story 6</summary><img src=""></details><br>
+
+7. To provide a set of rules should they be required
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Rock, Paper, Scissors rules modal | Allow user to read the rules of the game | A modal popout with the rules on | A modal popout with the rules on |
+
+
+  <details><summary>User Story 7</summary><img src=""></details><br>
 
 ## Deployment
 
