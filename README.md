@@ -92,7 +92,7 @@ The game ensures the user is up against a randomised computer opponent providing
 
 For the colour of the web page I used [Coolors](https://coolors.co/).
 
-<details><summary>Colour Palette</summary><img src="assets/docs/images/color_palette.png"></details>
+<details><summary>Colour Palette</summary><img src="docs/images/color_palette.png"></details>
 
 ### Structure
 
@@ -100,7 +100,7 @@ For the colour of the web page I used [Coolors](https://coolors.co/).
 
 Before starting the website I used a framework design tool called [Balsamic](https://balsamiq.com/) to mockup an initial design idea.
 
-<details><summary>Index</summary><img src="assets/docs/images/design_mock.png"></details>
+<details><summary>Index</summary><img src="docs/images/design_mock.png"></details>
 
 ## Technologies Used
 
@@ -149,7 +149,9 @@ The website was tested on the following browsers:
 ## Validator Testing 
 
 ### HTML
+Validation completed by [W3S](https://validator.w3.org/#validate_by_input). This validator returned no errors for HTML.
 
+  <details><summary>Index</summary><img src="docs/images/html_validate.png"></details>
 
 ### CSS
 
@@ -166,9 +168,15 @@ The website was tested on the following browsers:
 
 ## Bugs Fixed
 
+### Score Update
 
+  * The winner was being announced but the score was not updating. - To fix I moved the calling of the score update function to inside the winner function. This solved the issue.
+  * The images to show the selections were not showing before the alert for the winner. - To fix I set a small delay on the alert so that the images updated.
+  * Put the 'id' attribute into a div element twice
 
-### Testing user stories
+  <details><summary>Double ID</summary><img src="docs/images/double_id.png"></details>
+
+## Testing user stories
 
 1. Ability to play a fun game
 

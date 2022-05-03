@@ -97,7 +97,7 @@ function updateScores() {
 }
 
 //Check who is the first to 5
-function checkWinner(){
+function checkWinner() {
   if (pScore === 5 || cScore === 5) {
     if (pScore === 5) {
       alert(`Congratulations you WIN!!!`)
