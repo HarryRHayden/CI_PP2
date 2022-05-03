@@ -233,6 +233,15 @@ The website was tested on the following browsers:
 
   <details><summary>User Story 7</summary><img src=""></details><br>
 
+8. Provide a dynamic scoreboard for the player
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Scores area | Scores area that is updated each round | After a winner is declared the score count increases accordingly | A scoring area which updates after each round |
+
+
+  <details><summary>User Story 8</summary><img src=""></details><br>
+
 ## Deployment
 
 The website was deployed using GitHub Pages by following these steps:
