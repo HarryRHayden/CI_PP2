@@ -56,6 +56,7 @@ or loser. The game has been created on a webpage with the ability to play agains
 7. To provide a set of rules should they be required
 8. Provide a dynamic scoreboard for the player
 9. Provide an unbias computer player ensuring the selection is completely random
+10. Provide the user buttons to input their selection
 
 ## User Experience
 
@@ -124,11 +125,21 @@ Before starting the website I used a framework design tool called [Balsamic](htt
 ## Features
 ### Existing Features
 
-- ____
+- __Header__
 
-  - 
+  - Header provides the user the immediate expectation of the site - a game of Rock, Paper, Scissors
+  - User stories covered : 1, 6
 
-  ![]()
+
+  ![Navigation Bar](docs/images/user_story_1.png)
+
+- __User Buttons__
+
+  - A set of 3 buttons to allow the user to choose which symbol they wish to play the game with
+  - User stories covered : 1, 6, 10
+
+
+  ![Navigation Bar](docs/images/user_story_10.png)
 
 ### Features Left to Implement
 
