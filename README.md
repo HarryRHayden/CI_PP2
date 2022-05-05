@@ -150,6 +150,29 @@ Before starting the website I used a framework design tool called [Balsamic](htt
 
   ![Game Area](docs/images/game_area.png)
 
+- __Score Card__
+
+  - A reactive scorecard correctly keeping track of the score 
+  - Each time a win is determined the correct score is updated
+  - Goals covered : 3, 4, 8
+
+
+  ![Scorecard](docs/images/scorecard.png)
+
+- __Rules Button__
+
+  - A button which can be pressed to reveal the rules
+  - Goals covered : 5, 7
+
+  ![Rules Button](docs/images/rules_button.png)
+
+- __Rules Popout__
+
+  - A modal popout which has the rules displayed on
+  - Goals covered : 5, 7
+
+  ![Rules Button](docs/images/rules_popout.png)
+
 ### Features Left to Implement
 
 - Login to save wins/losses
@@ -180,7 +203,7 @@ Validation for CSS coding was completed by [W3S CSS Validator](https://jigsaw.w3
   
 ### Lighthouse Score
 Lighthouse score was provided by Chrome Dev Tools and all scores were returned .
-<details><summary>Accessibility Index</summary><img src="docs/images/web_wave_index.png"></details><br>
+<details><summary>Accessibility Index</summary><img src="docs/images/lighthouse_score.png"></details><br>
 
 ### Accessibility
 Accessibility was tested using [Wave Webaim](https://wave.webaim.org/) and returned no errors.
