@@ -69,7 +69,7 @@ or loser. The game has been created on a webpage with the ability to play agains
 
 ### User Requirements and Expectations
 
-- A easy to use game
+- An easy to use game
 - A fun experience with no cheating
 - An understanding that the computer is randomised and not set to beat the player
 - Presentation and visual aesthetics regardless of screensize
@@ -128,18 +128,27 @@ Before starting the website I used a framework design tool called [Balsamic](htt
 - __Header__
 
   - Header provides the user the immediate expectation of the site - a game of Rock, Paper, Scissors
-  - User stories covered : 1, 6
+  - Goals covered : 1, 6
 
 
-  ![Navigation Bar](docs/images/user_story_1.png)
+  ![Header](docs/images/webpage.png)
 
 - __User Buttons__
 
   - A set of 3 buttons to allow the user to choose which symbol they wish to play the game with
-  - User stories covered : 1, 6, 10
+  - Goals covered : 8, 9
 
 
-  ![Navigation Bar](docs/images/user_story_10.png)
+  ![User Buttons](docs/images/buttons.png)
+
+- __Game Area__
+
+  - A dynamic game area showing both the users selection and the computers randomised choice
+  - Responsive in design
+  - Goals covered : 1, 6, 10
+
+
+  ![Game Area](docs/images/game_area.png)
 
 ### Features Left to Implement
 
@@ -207,7 +216,7 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | The game itself | Ability to play Rock, Paper, Scissors | Randomised game of Rock, Paper, Scissors against the computer | A playable game |
 
 
-  <details><summary>User Goal 1</summary><img src="docs/images/user_story_1.png"></details><br>
+  <details><summary>User Goal 1</summary><img src="docs/images/webpage.png"></details><br>
 
 2. Ability to have a target number of victories for overall win
 
@@ -216,7 +225,7 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | Scorecard | Ability to score the game of Rock, Paper, Scissors and show a winner | Score counter with an objective of reaching 5 | Winner announced when score of 5 acheived |
 
 
-  <details><summary>User Goal 2</summary><img src="docs/images/user_story_2.png"></details><br>
+  <details><summary>User Goal 2</summary><img src="docs/images/winner_alert.png"></details><br>
 
 3. Ability to easily determine who won the round
 
@@ -225,7 +234,7 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | Scorecard | An alert to show who wins the round | Scorecard to increment by 1 each time a winner is announced | Alert appears as expected and scorecard increments as expected |
 
 
-  <details><summary>User Goal 3</summary><img src="docs/images/user_story_3.png"></details><br>
+  <details><summary>User Goal 3</summary><img src="docs/images/round_winner_alert.png"></details><br>
 
 4. Ability to try again once target score is reached
 
@@ -233,8 +242,8 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Scorecard resets | When winning score reached scores reset to play again | An alert to show who won the game and then score resets | An alert to show who won the game and then score resets |
 
-  <details><summary>User Goal 4</summary><img src="docs/images/user_story_2.png"></details><br>
-  <details><summary>User Goal 4</summary><img src="docs/images/user_story_1.png"></details><br>
+  <details><summary>User Goal 4</summary><img src="winner_alert.png"></details><br>
+  <details><summary>User Goal 4</summary><img src="webpage.png"></details><br>
 
 5. Ability to be shown the rules should they be needed
 
@@ -243,8 +252,8 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | Rules modal popout | Ability to be shown the rules should they be needed | A popout which shows the rules | A seperate popout with the rules depicted |
 
 
-  <details><summary>User Goal 5</summary><img src="docs/images/user_story_5_a.png"></details><br>
-  <details><summary>User Goal 5</summary><img src="docs/images/user_story_5_b.png"></details><br>
+  <details><summary>User Goal 5</summary><img src="docs/images/rules_button.png"></details><br>
+  <details><summary>User Goal 5</summary><img src="docs/images/rules_popout.png"></details><br>
 
 6. Provide a a fun stimulating game of Rock, Paper, Scissors
 
@@ -253,7 +262,7 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | Rock, Paper, Scissors game | Allow user to play the game | A working version of Rock, Paper, Scissors | A functioning game |
 
 
-  <details><summary>User Goal 6</summary><img src="docs/images/user_story_1.png"></details><br>
+  <details><summary>User Goal 6</summary><img src="docs/webpage.png"></details><br>
 
 7. To provide a set of rules should they be required
 
@@ -262,8 +271,8 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | Rock, Paper, Scissors rules modal | Allow user to read the rules of the game | A modal popout with the rules on | A modal popout with the rules on |
 
 
-  <details><summary>Owner's Goal 6</summary><img src="docs/images/user_story_5_a.png"></details><br>
-  <details><summary>Owner's Goal 6</summary><img src="docs/images/user_story_5_b.png"></details><br>
+  <details><summary>Owner's Goal 6</summary><img src="docs/images/rules_button.png"></details><br>
+  <details><summary>Owner's Goal 6</summary><img src="docs/images/rules_popout.png"></details><br>
 
 8. Provide a dynamic scoreboard for the player
 
@@ -272,7 +281,7 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | Scores area | Scores area that is updated each round | After a winner is declared the score count increases accordingly | A scoring area which updates after each round |
 
 
-  <details><summary>Owner's Goal 8</summary><img src="docs/images/user_story_8.png"></details><br>
+  <details><summary>Owner's Goal 8</summary><img src="docs/images/scorecard.png"></details><br>
 
 9. Provide an unbias computer player ensuring the selection is completely random
 
@@ -281,7 +290,16 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | Games area | Randomised computer selection | Each time the game is run the computers choice will be randomised | A random result for the computers pick each time |
 
 
-  <details><summary>Owner's Goal 8</summary><img src="docs/images/user_story_1.png"></details><br>
+  <details><summary>Owner's Goal 8</summary><img src="docs/images/webpage.png"></details><br>
+
+10. Provide the user buttons to input their selection
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Buttons section | 3 buttons to allow the user to select their choice | Each button represents one of the Rock, Paper, Scissors choices and when pressed shows the selection | Selection shown as expected |
+
+
+  <details><summary>Owner's Goal 8</summary><img src="docs/images/buttons.png"></details><br>
 
 ## Deployment
 
