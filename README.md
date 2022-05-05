@@ -151,25 +151,26 @@ The website was tested on the following browsers:
 ### HTML
 Validation completed by [W3S](https://validator.w3.org/#validate_by_input). This validator returned no errors for HTML.
 
-  <details><summary>Index</summary><img src="docs/images/html_validate.png"></details>
+  <details><summary>Index</summary><img src="docs/images/html_validate.png"></details><br>
 
 ### CSS
 Validation for CSS coding was completed by [W3S CSS Validator](https://jigsaw.w3.org/css-validator/) and returned no errors for my CSS coding.
 
-  <details><summary>CSS</summary><img src="docs/images/css_validate.png"></details>
+  <details><summary>CSS</summary><img src="docs/images/css_validate.png"></details><br>
   
 ### Lighthouse Score
-
+Lighthouse score was provided by Chrome Dev Tools and all scores were returned .
+<details><summary>Accessibility Index</summary><img src="docs/images/web_wave_index.png"></details><br>
 
 ### Accessibility
 Accessibility was tested using [Wave Webaim](https://wave.webaim.org/) and returned no errors.
 
-<details><summary>Accessibility Index</summary><img src="docs/images/web_wave_index.png"></details>
+<details><summary>Accessibility Index</summary><img src="docs/images/web_wave_index.png"></details><br>
 
 ### JavaScript
 JavaScript code was tested using [JSHint](https://jshint.com/) and returned one warning as shown below.
 
-<details><summary>JavaScript Validation</summary><img src="docs/images/jshint_validate.png"></details>
+<details><summary>JavaScript Validation</summary><img src="docs/images/jshint_validate.png"></details><br>
 
 
 ## Bugs Fixed
