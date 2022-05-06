@@ -282,8 +282,8 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Scorecard resets | When winning score reached scores reset to play again | An alert to show who won the game and then score resets | An alert to show who won the game and then score resets |
 
-  <details><summary>User Goal 4</summary><img src="winner_alert.png"></details><br>
-  <details><summary>User Goal 4</summary><img src="webpage.png"></details><br>
+  <details><summary>User Goal 4</summary><img src="docs/images/winner_alert.png"></details><br>
+  <details><summary>User Goal 4</summary><img src="docs/images/webpage.png"></details><br>
 
 5. Ability to be shown the rules should they be needed
 
@@ -300,7 +300,7 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Rock, Paper, Scissors game | Allow user to play the game | A working version of Rock, Paper, Scissors | A functioning game |
 
-  <details><summary>User Goal 6</summary><img src="docs/webpage.png"></details><br>
+  <details><summary>User Goal 6</summary><img src="docs/images/webpage.png"></details><br>
 
 7. To provide a set of rules should they be required
 
