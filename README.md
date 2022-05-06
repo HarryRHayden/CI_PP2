@@ -224,7 +224,7 @@ Validation for CSS coding was completed by [W3S CSS Validator](https://jigsaw.w3
 ### Lighthouse Score
 Lighthouse score was provided by Chrome Dev Tools and all scores were returned .
 
-  <details><summary>Accessibility Index</summary><img src="docs/images/lighthouse_score.png"></details><br>
+  <details><summary>Lighthouse Score</summary><img src="docs/images/lighthouse_score.png"></details><br>
 
 ### Accessibility
 Accessibility was tested using [Wave Webaim](https://wave.webaim.org/) and returned no errors.
