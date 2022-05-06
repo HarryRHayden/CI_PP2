@@ -27,18 +27,18 @@ or loser. The game has been created on a webpage with the ability to play agains
     1. [Manual Testing](#manual-testing)
     5. [Device testing](#perform-test-on-devices)
     6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
+    7. [Testing user and owner goals](#testing-user-and-owner-goals)
 7. [Validation](#validator-testing)
     1. [HTML](#html)
     2. [CSS](#css)
     3. [Lighthouse](#lighthouse-score)
     4. [Accessibility](#accessibility)
+    5. [JavaScript](#javascript)
 8. [Bugs Fixed](#bugs-fixed)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
-    1. [Code](#code)
-    2. [Content](#content)
-    3. [Media](#media)
+    1. [Content](#content)
+    2. [Media](#media)
 
 ## Project Goals
 
@@ -195,13 +195,19 @@ Before starting the website I used a framework design tool called [Balsamic](htt
 
 ### Perform test on devices
 The website was tested on the following devices:
-
+MacBook Pro
+MacBook 
+iPhone 11
+iPhone 12 Mini
+iPad
 
 In addition, the website was tested using Google Chrome Developer Tools Device Toggling option for all available device options.
 
 ### Browser compatability
 The website was tested on the following browsers:
-
+Chrome
+Safari
+Edge
 
 ## Validator Testing 
 
@@ -217,7 +223,8 @@ Validation for CSS coding was completed by [W3S CSS Validator](https://jigsaw.w3
   
 ### Lighthouse Score
 Lighthouse score was provided by Chrome Dev Tools and all scores were returned .
-<details><summary>Accessibility Index</summary><img src="docs/images/lighthouse_score.png"></details><br>
+
+  <details><summary>Accessibility Index</summary><img src="docs/images/lighthouse_score.png"></details><br>
 
 ### Accessibility
 Accessibility was tested using [Wave Webaim](https://wave.webaim.org/) and returned no errors.
@@ -227,8 +234,7 @@ Accessibility was tested using [Wave Webaim](https://wave.webaim.org/) and retur
 ### JavaScript
 JavaScript code was tested using [JSHint](https://jshint.com/) and returned one warning as shown below.
 
-<details><summary>JavaScript Validation</summary><img src="docs/images/jshint_validate.png"></details><br>
-
+  <details><summary>JavaScript Validation</summary><img src="docs/images/jshint_validate.png"></details><br>
 
 ## Bugs Fixed
 
@@ -252,7 +258,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | The game itself | Ability to play Rock, Paper, Scissors | Randomised game of Rock, Paper, Scissors against the computer | A playable game |
 
-
   <details><summary>User Goal 1</summary><img src="docs/images/webpage.png"></details><br>
 
 2. Ability to have a target number of victories for overall win
@@ -261,7 +266,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Scorecard | Ability to score the game of Rock, Paper, Scissors and show a winner | Score counter with an objective of reaching 5 | Winner announced when score of 5 acheived |
 
-
   <details><summary>User Goal 2</summary><img src="docs/images/winner_alert.png"></details><br>
 
 3. Ability to easily determine who won the round
@@ -269,7 +273,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Scorecard | An alert to show who wins the round | Scorecard to increment by 1 each time a winner is announced | Alert appears as expected and scorecard increments as expected |
-
 
   <details><summary>User Goal 3</summary><img src="docs/images/round_winner_alert.png"></details><br>
 
@@ -288,7 +291,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Rules modal popout | Ability to be shown the rules should they be needed | A popout which shows the rules | A seperate popout with the rules depicted |
 
-
   <details><summary>User Goal 5</summary><img src="docs/images/rules_button.png"></details><br>
   <details><summary>User Goal 5</summary><img src="docs/images/rules_popout.png"></details><br>
 
@@ -298,7 +300,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Rock, Paper, Scissors game | Allow user to play the game | A working version of Rock, Paper, Scissors | A functioning game |
 
-
   <details><summary>User Goal 6</summary><img src="docs/webpage.png"></details><br>
 
 7. To provide a set of rules should they be required
@@ -306,7 +307,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Rock, Paper, Scissors rules modal | Allow user to read the rules of the game | A modal popout with the rules on | A modal popout with the rules on |
-
 
   <details><summary>Owner's Goal 6</summary><img src="docs/images/rules_button.png"></details><br>
   <details><summary>Owner's Goal 6</summary><img src="docs/images/rules_popout.png"></details><br>
@@ -317,7 +317,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Scores area | Scores area that is updated each round | After a winner is declared the score count increases accordingly | A scoring area which updates after each round |
 
-
   <details><summary>Owner's Goal 8</summary><img src="docs/images/scorecard.png"></details><br>
 
 9. Provide an unbias computer player ensuring the selection is completely random
@@ -326,7 +325,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Games area | Randomised computer selection | Each time the game is run the computers choice will be randomised | A random result for the computers pick each time |
 
-
   <details><summary>Owner's Goal 8</summary><img src="docs/images/webpage.png"></details><br>
 
 10. Provide the user buttons to input their selection
@@ -334,7 +332,6 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Buttons section | 3 buttons to allow the user to select their choice | Each button represents one of the Rock, Paper, Scissors choices and when pressed shows the selection | Selection shown as expected |
-
 
   <details><summary>Owner's Goal 8</summary><img src="docs/images/buttons.png"></details><br>
 
@@ -359,14 +356,9 @@ You can clone the repository by following these steps:
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Press the Enter key to create your local clone.
 
-The live link can be found here - 
-
+The live link can be found here - https://harryrhayden.github.io/CI_PP2/
 
 ## Credits 
-
-### Code
-
-
 
 ### Content 
 
