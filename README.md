@@ -173,6 +173,20 @@ Before starting the website I used a framework design tool called [Balsamic](htt
 
   ![Rules Button](docs/images/rules_popout.png)
 
+- __Round Winner Alert__
+
+  - An alert shown to the user to provide the winner of the round
+  - Goals covered : 3
+
+  ![Round Winner Alert](docs/images/round_winner_alert.png)
+
+- __Winner Alert__
+
+  - An alert shown to the user to provide the winner of the game
+  - Goals covered : 3
+
+  ![Winner Alert](docs/images/winner_alert.png)
+
 ### Features Left to Implement
 
 - Login to save wins/losses
