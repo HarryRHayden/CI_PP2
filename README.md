@@ -222,7 +222,7 @@ Validation for CSS coding was completed by [W3S CSS Validator](https://jigsaw.w3
   <details><summary>CSS</summary><img src="docs/images/css_validate.png"></details><br>
   
 ### Lighthouse Score
-Lighthouse score was provided by Chrome Dev Tools and all scores were returned .
+Lighthouse score was provided by Chrome Dev Tools and all scores were returned above 91.
 
   <details><summary>Lighthouse Score</summary><img src="docs/images/lighthouse_score.png"></details><br>
 
@@ -308,8 +308,8 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Rock, Paper, Scissors rules modal | Allow user to read the rules of the game | A modal popout with the rules on | A modal popout with the rules on |
 
-  <details><summary>Owner's Goal 6</summary><img src="docs/images/rules_button.png"></details><br>
-  <details><summary>Owner's Goal 6</summary><img src="docs/images/rules_popout.png"></details><br>
+  <details><summary>Owner's Goal 7</summary><img src="docs/images/rules_button.png"></details><br>
+  <details><summary>Owner's Goal 7</summary><img src="docs/images/rules_popout.png"></details><br>
 
 8. Provide a dynamic scoreboard for the player
 
@@ -325,7 +325,7 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Games area | Randomised computer selection | Each time the game is run the computers choice will be randomised | A random result for the computers pick each time |
 
-  <details><summary>Owner's Goal 8</summary><img src="docs/images/webpage.png"></details><br>
+  <details><summary>Owner's Goal 9</summary><img src="docs/images/webpage.png"></details><br>
 
 10. Provide the user buttons to input their selection
 
@@ -333,7 +333,7 @@ JavaScript code was tested using [JSHint](https://jshint.com/) and returned one 
 |-------------|------------|---------------------|-------------------|
 | Buttons section | 3 buttons to allow the user to select their choice | Each button represents one of the Rock, Paper, Scissors choices and when pressed shows the selection | Selection shown as expected |
 
-  <details><summary>Owner's Goal 8</summary><img src="docs/images/buttons.png"></details><br>
+  <details><summary>Owner's Goal 10</summary><img src="docs/images/buttons.png"></details><br>
 
 ## Deployment
 
