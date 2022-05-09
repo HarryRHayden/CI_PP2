@@ -3,7 +3,7 @@
 Rock, Paper, Scissors is a well known game around the world and is played by people of all ages, both for fun and occassionally for deciding who should have to do something as the winner
 or loser. The game has been created on a webpage with the ability to play against the computer in the knowledge that the computer decides completely at random against the user.
 
-![Webpage responsive]()
+![Webpage responsive](docs/images/responsive_design.png)
 
 [Live Webpage](https://harryrhayden.github.io/CI_PP2/)
 
@@ -364,6 +364,7 @@ The live link can be found here - https://harryrhayden.github.io/CI_PP2/
 
 - The icons in the game area were taken from [Font Awesome](https://fontawesome.com/)
 - The images were compressed using [Compressor IO](https://compressor.io/)
+- The responsive design cover was made using [Am I Responsive?](https://ui.dev/amiresponsive)
 
 ### Media
 
